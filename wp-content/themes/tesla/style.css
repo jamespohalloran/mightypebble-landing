@@ -1,0 +1,286 @@
+/*
+Theme Name: Tesla
+Theme URI: http://teslathemes.com/wp-themes/tesla/
+Description: Tesla is a beautiful WordPress Theme with clean, modern, responsive design and some great features powered by a robust framework. It is a great choice for a blog, portfolio, business website, creative agency or any other related project.
+Version: 1.9
+Author: Tesla Themes
+Author URI: http://teslathemes.com/
+License: GNU General Public License version 3.0
+License URI: http://www.gnu.org/licenses/gpl-3.0.html
+Tags: light, four-columns, fluid-layout, post-formats, photoblogging
+*/
+
+/*
+
+Tesla WordPress theme, Copyright (C) 2013 Tesla Themes
+Tesla WordPress theme is licensed under the GPL.
+
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Amatic+SC:400,700);
+@import url(https://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic);
+
+#menu-menu-1 a, .title, .widgetTitle
+{
+	font-family: 'Amatic SC', cursive !important;
+}
+
+.pageContents, .entry, .sidebar a, #contents > div > div > .post
+{
+	font-family: 'PT Sans', sans-serif;
+}
+
+.widgetTitle
+{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#menu-menu-1 a
+{
+    font-size: 32px;
+}
+
+#header-container
+{
+     height: 160px;
+}
+
+.titleContainer.titlePage .title
+{
+	font-weight:bold;
+	font-size: 50px;
+}
+
+.titleContainer.titleBordered, .titleContainer.titlePage, .sidebar
+{
+	margin-top:10px;
+}
+
+body
+{
+    background-image: url("../../uploads/2015/08/pw_maze_white.png");
+font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.menu-menu-1
+{
+    background-color: #C0392B;
+    height: 52px;
+    margin-right: -42px;
+    margin-left: -42px;
+}
+
+.mp-logo-text
+{
+    width: 410px;
+    vertical-align: top;
+    padding-top: 10px;
+}
+
+.sidebar > *
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 2px;
+}
+
+#contents .stretched
+{
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    background-color: #fff;
+    padding: 17px;
+}
+
+.lowerfooterbg
+{
+    display: none;
+}
+
+@media screen and (min-width: 768px) {
+body .header-big-bar
+{
+	background-color: #FDFDFD;
+    border-bottom-color: #D0D0D0;
+    border-bottom-width: 2px;
+    border-style: solid;
+    border-top-color: #D0D0D0;
+    border-top-width: 2px;
+    border-style: solid;
+}
+}
+
+@media screen and (max-width: 767px) {
+
+	body .wrapper-container
+	{
+	}
+
+	body .logo{
+	 	position: relative;
+     		margin-left: -10px; 
+	}
+
+	.menuContainer select
+{
+    background: #FFFFFF;
+    margin-left: 10px;
+}
+
+	.wrapper.test123
+	{
+		height: 10px;
+	}
+}
+
+.menuContainer > ul.menu > li
+{
+	margin-bottom: 0px;
+}
+
+.blogEntryFooterComments, .blogEntryFooterDelimiter
+{
+	display: none;
+}
+
+.menuContainer > ul.menu > li:last-child
+{
+    margin-right: -14px;
+}
+
+input[type="email"]
+{
+    height: 13px;
+    outline: none;
+    border: 1px solid #CECECE;
+    padding: 9px;
+}
+
+.wrapper-container
+{
+    margin-top: 10px;
+    position:relative;
+}
+
+#contents .blog, .page, #contents > div > div > .post
+{
+    background-color: #FDFDFD;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #ddd;
+    border-radius: 2px;
+}
+
+.logo
+{
+    position: absolute;
+    margin-left: 40px;
+}
+
+.postFooterComments
+{
+	display: none;
+}
+
+body
+{
+    padding: 0px !important;
+}
+
+.sidebar .widget {
+     margin-top: 98px;
+}
+
+.sidebar .widget .widgetTitle {
+	font-size: 27px;
+}
+
+.titleContainer.titlePage
+{
+	border-top-style: none;
+}
+
+.header-cont
+{
+	pointer-events: none;
+}
+
+.header-cont > * > *
+{
+	pointer-events: all;
+}
+
+.page.page-id-200 #contents
+{
+background: url("../../uploads/2015/11/bgm.gif") fixed center;
+background-size: 100% auto;
+}
+
+
+.page.page-id-200 .title
+{
+    color: white;
+}
+
+#yikes-mailchimp-container-1
+{
+    padding: 10px;
+    background-color: rgb(246, 246, 246);
+    font-family: 'PT Sans', sans-serif;
+}
+
+.mp-email-opt-in-form
+{
+    margin-top:10px;
+}
+
+.mp-email-opt-in-form input
+{
+    box-sizing: initial !important;
+}
+
+.mp-email-opt-in-submit
+{
+    font-family: 'PT Sans', sans-serif;
+    border-radius: 5px;
+    background-color: white;
+    border-style: solid;
+    border-color: #ddd;
+    border-width: 1px;
+
+    margin-top: -5px !important;
+    margin-bottom: -5px !important;
+}
+
+#mailmunch-optin-form .optin-form-screen{
+	background-color: rgb(246, 246, 246) !important;
+	padding: 18px 21px 19px 21px !important;
+	list-style: none !important;
+	font-family: 'PT Sans', sans-serif !important;
+	font-size: 13px !important;
+}
+
+#custom_field_submit_1015387{
+	font-family: 'PT Sans', sans-serif !important;
+	border-radius: 3px !important;
+}
+#mailmunch-optin-form .text{
+	font-size: 12px !important;
+	font-family: 'PT Sans', sans-serif !important;
+	color: rgb(81, 81, 81) !important;
+}
+
+.mailmunch-branding{
+	display:none !important;
+}
+
+.g-recaptcha
+{
+    margin-top: 50px !important;
+    width: 41px;
+}
